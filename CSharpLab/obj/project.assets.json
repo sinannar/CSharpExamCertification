@@ -681,23 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sinan\\.nuget\\packages\\": {},
+    "C:\\Users\\sinan.nar\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sinan\\source\\repos\\CSharpLab\\CSharpLab\\CSharpLab.csproj",
+      "projectUniqueName": "D:\\source\\CSharpExamCertification\\CSharpLab\\CSharpLab.csproj",
       "projectName": "CSharpLab",
-      "projectPath": "C:\\Users\\Sinan\\source\\repos\\CSharpLab\\CSharpLab\\CSharpLab.csproj",
-      "packagesPath": "C:\\Users\\Sinan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sinan\\source\\repos\\CSharpLab\\CSharpLab\\obj\\",
+      "projectPath": "D:\\source\\CSharpExamCertification\\CSharpLab\\CSharpLab.csproj",
+      "packagesPath": "C:\\Users\\sinan.nar\\.nuget\\packages\\",
+      "outputPath": "D:\\source\\CSharpExamCertification\\CSharpLab\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Sinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sinan.nar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
