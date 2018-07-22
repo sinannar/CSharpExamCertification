@@ -1,0 +1,4 @@
+﻿When app is an executing I/O operation on primary thread, windows notice that thread is waiting for I/O to complete which may take some time. This operation may also be accessing file on disk or something.
+Because of this load running operation, windows pause thread to prevent its using and CPU resources but still be using memory so thread cant be used to serve other requests. So if new request comes, new thread created.
+Asynchronous code solve this problem. Instead of blocking your thread, get back a Task object that represent the result of async operation.
+By setting continuation on this TAsk, you can continue when I/O is done. In meantime, thread will be available for other work
