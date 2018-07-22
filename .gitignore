@@ -1,3 +1,5 @@
 
-\.vs/*
+.vs/*
 
+.CSharpLab/bin/*
+.CSharpLab/obj/*
