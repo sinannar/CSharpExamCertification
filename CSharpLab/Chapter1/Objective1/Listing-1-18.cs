@@ -20,6 +20,7 @@ namespace CSharpLab.Chapter1.Objective1
         {
             using (HttpClient client = new HttpClient())
             {
+                Thread.Sleep(10000);
                 return await client.GetStringAsync("http://www.microsoft.com");
             }
         }
