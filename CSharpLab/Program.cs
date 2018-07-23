@@ -74,10 +74,19 @@ namespace CSharpLab
             //Listing_1_22.RunMain();
             //Console.ReadKey();
 
-            Listing_1_23.RunMain();
-            Console.ReadKey();
+            //Listing_1_23.RunMain();
+            //Console.ReadKey();
 
-            Listing_1_24.RunMain();
+            //Listing_1_24.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_25.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_26.RunMain();
+            //Console.ReadKey();
+
+            Listing_1_27.RunMain();
             Console.ReadKey();
         }
     }
