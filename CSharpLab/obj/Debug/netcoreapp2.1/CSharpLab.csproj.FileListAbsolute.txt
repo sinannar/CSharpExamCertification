@@ -20,14 +20,3 @@ C:\Users\Sinan\source\repos\CSharpLab\CSharpLab\obj\Debug\netcoreapp2.1\CSharpLa
 C:\Users\Sinan\source\repos\CSharpLab\CSharpLab\obj\Debug\netcoreapp2.1\CSharpLab.AssemblyInfo.cs
 C:\Users\Sinan\source\repos\CSharpLab\CSharpLab\obj\Debug\netcoreapp2.1\CSharpLab.dll
 C:\Users\Sinan\source\repos\CSharpLab\CSharpLab\obj\Debug\netcoreapp2.1\CSharpLab.pdb
-D:\source\CSharpExamCertification\CSharpLab\obj\Debug\netcoreapp2.1\CSharpLab.csprojAssemblyReference.cache
-D:\source\CSharpExamCertification\CSharpLab\obj\Debug\netcoreapp2.1\CSharpLab.csproj.CoreCompileInputs.cache
-D:\source\CSharpExamCertification\CSharpLab\obj\Debug\netcoreapp2.1\CSharpLab.AssemblyInfoInputs.cache
-D:\source\CSharpExamCertification\CSharpLab\obj\Debug\netcoreapp2.1\CSharpLab.AssemblyInfo.cs
-D:\source\CSharpExamCertification\CSharpLab\obj\Debug\netcoreapp2.1\CSharpLab.dll
-D:\source\CSharpExamCertification\CSharpLab\obj\Debug\netcoreapp2.1\CSharpLab.pdb
-D:\source\CSharpExamCertification\CSharpLab\bin\Debug\netcoreapp2.1\CSharpLab.deps.json
-D:\source\CSharpExamCertification\CSharpLab\bin\Debug\netcoreapp2.1\CSharpLab.runtimeconfig.json
-D:\source\CSharpExamCertification\CSharpLab\bin\Debug\netcoreapp2.1\CSharpLab.runtimeconfig.dev.json
-D:\source\CSharpExamCertification\CSharpLab\bin\Debug\netcoreapp2.1\CSharpLab.dll
-D:\source\CSharpExamCertification\CSharpLab\bin\Debug\netcoreapp2.1\CSharpLab.pdb
