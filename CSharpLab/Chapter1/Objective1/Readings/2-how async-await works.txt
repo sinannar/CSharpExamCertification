@@ -1,0 +1,9 @@
+﻿in C# 5, two new keyword to simplfy asynchoronous code implementation which are async and await
+Writing asynchnronous code is not easy, need to make sure all edge cases are handled.
+With async, you mark your method has asynchronous operations and compiler knows something asynchronous is going to happen.
+Comppiler transform code into state machine as response to this signal
+
+A method marked with async just starts running synchoronously on the current thtread. Boundries marked with await keyboard split into multiple pieces.
+When you use await keyword, the compiuler generate code that will see whether your asynchronous operation is already finished. 
+If it is, your method continues to run synchronously, otherwise state machine will hook up continuation method that should run when the Task completes.
+Method tields control to the calling thread and this thread can be used to do other work
