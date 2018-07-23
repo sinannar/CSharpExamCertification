@@ -1,4 +1,4 @@
 
 /.vs/*
-#/CSharpLab/bin/*
-#/CSharpLab/obj/*
+/CSharpLab/bin/*
+/CSharpLab/obj/*
