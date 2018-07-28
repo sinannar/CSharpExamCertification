@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace CSharpLab.Chapter1.Objective1
 {
-    public static class Listing_1_18
+    public static class Listing_1_18_AsyncMainSupport
     {
-        public static void RunMain()
+        public static async Task RunMain()
         {
-            string result = DownloadContent().Result;
+            string result = await DownloadContent();
             Console.WriteLine(result);
         }
 

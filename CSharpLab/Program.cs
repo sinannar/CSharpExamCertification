@@ -1,11 +1,12 @@
 ﻿using CSharpLab.Chapter1.Objective1;
 using System;
+using System.Threading.Tasks;
 
 namespace CSharpLab
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             //Listing_1_01.RunMain();
             //Console.ReadKey();
@@ -59,8 +60,11 @@ namespace CSharpLab
             //Listing_1_17.RunMain();
             //Console.ReadKey();
 
-            //Listing_1_18.RunMain();
-            //Console.ReadKey();
+            Listing_1_18.RunMain();
+            Console.ReadKey();
+
+            await Listing_1_18_AsyncMainSupport.RunMain();
+            Console.ReadKey();
 
             //Listing_1_19.RunMain();
             //Console.ReadKey();
@@ -107,8 +111,8 @@ namespace CSharpLab
             //Listing_1_33.RunMain();
             //Console.ReadKey();
 
-            Listing_1_34.RunMain();
-            Console.ReadKey();
+            //Listing_1_34.RunMain();
+            //Console.ReadKey();
         }
     }
 }
