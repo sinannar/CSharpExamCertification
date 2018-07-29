@@ -9,11 +9,12 @@ namespace CSharpLab.Chapter1.Objective1
     {
         public static void RunMain()
         {
-            var numbers = Enumerable.Range(0, 20);
+            var numbers = Enumerable.Range(0, 50000000);
 
             try
             {
                 var parallelResult = numbers.AsParallel()
+                    .WithDegreeOfParallelism(3)
                     .Where(i => IsEven(i));
 
                 parallelResult.ForAll(e => Console.WriteLine(e));
@@ -23,15 +24,15 @@ namespace CSharpLab.Chapter1.Objective1
                 Console.WriteLine("There were {0} exceptions",e.InnerExceptions.Count);
             }
 
-            var parallelArray = numbers.AsParallel()
-                .Where(i => i % 2 == 0);
+            //var parallelArray = numbers.AsParallel()
+            //    .Where(i => i % 2 == 0);
 
-            parallelArray.ForAll(e => Console.WriteLine(e));
+            //parallelArray.ForAll(e => Console.WriteLine(e));
         }
 
         public static bool IsEven(int i)
         {
-            if (i % 10 == 0) throw new ArgumentException($"{i}");
+            if (i % 50 == 0) throw new ArgumentException($"{i}");
             return i % 2 == 0;
         }
     }

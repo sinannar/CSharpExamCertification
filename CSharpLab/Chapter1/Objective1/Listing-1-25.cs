@@ -9,9 +9,12 @@ namespace CSharpLab.Chapter1.Objective1
     {
         public static void RunMain()
         {
-            var numbers = Enumerable.Range(0, 10);
-            var parallelArray = numbers.AsParallel().AsOrdered()
-                .Where(i => i % 2 == 0).AsSequential()
+            var numbers = Enumerable.Range(0, 50);
+            var parallelArray = numbers
+                .AsParallel()
+                //.AsOrdered()
+                .Where(i => i % 2 == 0)
+                .AsSequential()
                 .ToArray();
 
             foreach (var i in parallelArray)

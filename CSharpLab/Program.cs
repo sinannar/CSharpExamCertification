@@ -69,8 +69,8 @@ namespace CSharpLab
             //Listing_1_19.RunMain();
             //Console.ReadKey();
 
-            Listing_1_19_Correct.RunMain();
-            Console.ReadKey();
+            //Listing_1_19_Correct.RunMain();
+            //Console.ReadKey();
 
             //Listing_1_20.RunMain();
             //Console.ReadKey();
@@ -93,7 +93,7 @@ namespace CSharpLab
             //Listing_1_26.RunMain();
             //Console.ReadKey();
 
-            //Listing_1_27.RunMain();
+            Listing_1_27.RunMain();
             //Console.ReadKey();
 
             //Listing_1_28.RunMain();
