@@ -7,21 +7,21 @@ using System.Threading.Tasks;
 
 namespace CSharpLab.Chapter1.Objective1
 {
-    public static class Listing_1_28
+    public static class Listing_1_28_3
     {
         public static void RunMain()
         {
-            BlockingCollection<string> col = new BlockingCollection<string>();
+            ConcurrentStack<string> col = new ConcurrentStack<string>();
+
 
             Task read = Task.Run(() =>
             {
-                //string str = "";
-                //while (!str.Equals("Exit",StringComparison.OrdinalIgnoreCase))
+                
                 while (true)
                 {
-                    //str = col.Take();
-                    //Console.WriteLine(str);
-                    Console.WriteLine(col.Take());
+                    string str;
+                    if(col.TryPop(out str))
+                    Console.WriteLine(str);
                 }
             });
 
@@ -29,9 +29,13 @@ namespace CSharpLab.Chapter1.Objective1
             {
                 while(true)
                 {
-                    string s = Console.ReadLine();//.ToString();
+                    string s = Console.ReadLine();
                     if (string.IsNullOrWhiteSpace(s)) break;
-                    col.Add(s);
+                    var r = s.Split(' ');
+                    foreach (var i in r)
+                    {
+                        col.Push(i);
+                    }
                 }
             });
 

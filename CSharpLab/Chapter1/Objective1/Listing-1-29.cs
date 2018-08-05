@@ -27,9 +27,15 @@ namespace CSharpLab.Chapter1.Objective1
                 {
                     string s = Console.ReadLine();
                     if (string.IsNullOrWhiteSpace(s)) break;
-                    col.Add(s);
+                    var r = s.Split(' ');
+                    foreach (var i in r)
+                    {
+                        col.Add(i);
+
+                    }
                 }
             });
+            write.Wait();
         }
     }
 }

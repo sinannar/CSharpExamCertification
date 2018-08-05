@@ -20,12 +20,19 @@ namespace CSharpLab.Chapter1.Objective1
 
             if (bag.TryTake(out result))
             {
-                Console.WriteLine(result);
+                Console.WriteLine(result); //TAKE
             }
+
+            if (bag.TryPeek(out result))
+            {
+                Console.WriteLine(result); //READ
+            }
+
             if (bag.TryTake(out result))
             {
-                Console.WriteLine("next item is  {0}", result);
+                Console.WriteLine("next item is  {0}", result); //TAKE
             }
+
             if (bag.TryTake(out result))
             {
                 Console.WriteLine("3rd item is  {0}", result);
@@ -33,6 +40,15 @@ namespace CSharpLab.Chapter1.Objective1
             else
             {
                 Console.WriteLine("failed taking 3rd item");
+            }
+
+            if (bag.TryTake(out result))
+            {
+                Console.WriteLine("peek 3rd item is  {0}", result);
+            }
+            else
+            {
+                Console.WriteLine("peek failed taking 3rd item");
             }
         }
     }

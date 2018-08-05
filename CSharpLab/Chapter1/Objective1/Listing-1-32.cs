@@ -12,25 +12,32 @@ namespace CSharpLab.Chapter1.Objective1
     {
         public static void RunMain()
         {
-            ConcurrentStack<int> stack = new ConcurrentStack<int>();
+            ConcurrentStack<int?> stack = new ConcurrentStack<int?>();
 
             stack.Push(42);
 
-            int result;
+            int? result;
 
             if(stack.TryPop(out result))
             {
                 Console.WriteLine("popped {0}", result);
             }
 
-            stack.PushRange(new int[] { 1,2,3});
-            int[] values = new int[2];
+            stack.PushRange(new int?[] { 1,2,3});
+            int?[] values = new int?[6];
 
             stack.TryPopRange(values);
 
             foreach (var item in values)
             {
-                Console.WriteLine(item);
+                if(item.HasValue)
+                {
+                    Console.WriteLine(item.Value);
+                }
+                else
+                {
+                    Console.WriteLine("Null");
+                }
             }
 
         }

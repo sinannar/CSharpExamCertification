@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace CSharpLab.Chapter1.Objective1
 {
-    public static class Listing_1_28
+    public static class Listing_1_28_4
     {
         public static void RunMain()
         {
-            BlockingCollection<string> col = new BlockingCollection<string>();
+            BlockingCollection<string> col = new BlockingCollection<string>(new ConcurrentBag<string>());
 
             Task read = Task.Run(() =>
             {
@@ -27,7 +27,7 @@ namespace CSharpLab.Chapter1.Objective1
 
             Task write = Task.Run(() =>
             {
-                while(true)
+                while (true)
                 {
                     string s = Console.ReadLine();//.ToString();
                     if (string.IsNullOrWhiteSpace(s)) break;

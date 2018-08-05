@@ -93,10 +93,19 @@ namespace CSharpLab
             //Listing_1_26.RunMain();
             //Console.ReadKey();
 
-            Listing_1_27.RunMain();
-            //Console.ReadKey();
+            //Listing_1_27.RunMain();
+            ////Console.ReadKey();
 
             //Listing_1_28.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_28_1.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_28_2.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_28_3.RunMain();
             //Console.ReadKey();
 
             //Listing_1_29.RunMain();
@@ -114,8 +123,8 @@ namespace CSharpLab
             //Listing_1_33.RunMain();
             //Console.ReadKey();
 
-            //Listing_1_34.RunMain();
-            //Console.ReadKey();
+            Listing_1_34.RunMain();
+            Console.ReadKey();
         }
     }
 }
