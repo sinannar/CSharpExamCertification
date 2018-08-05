@@ -8,26 +8,22 @@ using System.Threading.Tasks;
 
 namespace CSharpLab.Chapter1.Objective2
 {
-    public static class Listing_1_40
+    public static class Listing_1_41_1
     {
+        static int value = 1;
+
         public static void RunMain()
         {
-            int n = 0;
-            var up = Task.Run(() =>
-            {
-                for (int i = 0; i < 1000000; i++)
-                {
-                    Interlocked.Increment(ref n);
-                }
+            Task t1 = Task.Run(() => {
+                Interlocked.CompareExchange(ref value, 2, 1);
             });
 
-            for (int i = 0; i < 1000000; i++)
-            {
-                Interlocked.Decrement(ref n);
-            }
+            Task t2 = Task.Run(() => {
+                Interlocked.CompareExchange(ref value, 3, 1);
+            });
 
-            up.Wait();
-            Console.WriteLine(n);
+            Task.WaitAll(t1,t2);
+            Console.WriteLine(value);
         }
     }
 }
