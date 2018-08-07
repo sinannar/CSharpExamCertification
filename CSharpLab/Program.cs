@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace CSharpLab
 {
-    class Program
+    public static class Program
     {
-        static async Task Main(string[] args)
+        public static void Main(string[] args)
         {
             RunObjective1.RunMain();
             RunObjective2.RunMain();
