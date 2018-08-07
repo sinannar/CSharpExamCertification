@@ -1,5 +1,6 @@
 ﻿using CSharpLab.Chapter1.Objective1;
 using CSharpLab.Chapter1.Objective2;
+using CSharpLab.Chapter1.Objective3;
 using System;
 using System.Threading.Tasks;
 
@@ -154,8 +155,28 @@ namespace CSharpLab
             //Listing_1_42.RunMain();
             //Console.ReadKey();
 
+            //Listing_1_43.RunMain();
+            //Console.ReadKey();
 
-            Listing_1_43.RunMain();
+            //Listing_1_44.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_45.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_46.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_47.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_48.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_49.RunMain();
+            //Console.ReadKey();
+
+            Listing_1_50.RunMain();
             Console.ReadKey();
 
 
