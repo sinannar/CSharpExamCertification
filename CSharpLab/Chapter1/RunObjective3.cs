@@ -30,6 +30,40 @@ namespace CSharpLab.Chapter1
 
             //Listing_1_52.RunMain();
             //Console.ReadKey();
+
+            //Listing_1_53.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_54.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_55.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_56.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_57.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_58.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_59.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_60.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_61.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_62.RunMain();
+            //Console.ReadKey();
+
+            Listing_1_63.RunMain();
+            Console.ReadKey();
+
         }
     }
 }
