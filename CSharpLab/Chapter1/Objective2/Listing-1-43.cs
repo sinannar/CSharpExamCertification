@@ -27,7 +27,7 @@ namespace CSharpLab.Chapter1.Objective2
             try
             {
                 Console.Write("Press enter to stop the task");
-                Console.ReadLine();
+                Console.ReadKey();
                 cancellationTokenSource.Cancel();
                 task.Wait();
             }
@@ -36,7 +36,7 @@ namespace CSharpLab.Chapter1.Objective2
                 Console.WriteLine(e.InnerExceptions[0].Message);
             }
             Console.WriteLine("Press enter to end the application");
-            Console.ReadLine();
+            Console.ReadKey();
 
         }
     }

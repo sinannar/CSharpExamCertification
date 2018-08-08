@@ -19,14 +19,11 @@ namespace CSharpLab.Chapter1.Objective2
                     Console.WriteLine("*");
                     Thread.Sleep(1000);
                 }
-
-                token.ThrowIfCancellationRequested();
             }, token).ContinueWith((t) => {
 
-                t.Exception.Handle((e) => true);
                 Console.WriteLine("You have canceled the task");
+                t.Exception.Handle((e) => true);
             }, TaskContinuationOptions.OnlyOnCanceled);
-
 
             try
             {

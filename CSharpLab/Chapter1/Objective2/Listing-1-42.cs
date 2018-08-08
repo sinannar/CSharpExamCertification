@@ -23,11 +23,11 @@ namespace CSharpLab.Chapter1.Objective2
             }, token);
 
             Console.Write("Press enter to stop the task");
-            Console.ReadLine();
+            Console.ReadKey();
             cancellationTokenSource.Cancel();
 
             Console.WriteLine("Press enter to end the application");
-            Console.ReadLine();
+            Console.ReadKey();
 
         }
     }
