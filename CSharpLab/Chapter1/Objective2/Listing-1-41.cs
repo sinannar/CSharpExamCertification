@@ -16,6 +16,7 @@ namespace CSharpLab.Chapter1.Objective2
         {
             Task t1 = Task.Run(() =>
             {
+                Console.WriteLine("1 start");
                 if (value == 1)
                 {
                     Thread.Sleep(1000);
@@ -25,6 +26,8 @@ namespace CSharpLab.Chapter1.Objective2
 
             Task t2 = Task.Run(() =>
             {
+                Console.WriteLine("2 start");
+                Thread.Sleep(1);
                 value = 3;
             });
 
