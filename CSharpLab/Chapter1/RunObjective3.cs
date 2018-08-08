@@ -94,6 +94,11 @@ namespace CSharpLab.Chapter1
             //Listing_1_73.RunMain();
             //Console.ReadKey();
 
+            //Test.RunMain();
+            //Console.ReadKey();
+
+            //Test2.RunMain();
+            //Console.ReadKey();
         }
     }
 }
