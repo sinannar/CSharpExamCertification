@@ -14,6 +14,7 @@ namespace CSharpLab
             RunObjective1.RunMain();
             RunObjective2.RunMain();
             RunObjective3.RunMain();
+            RunObjective4.RunMain();
         }
     }
 }
