@@ -10,10 +10,13 @@ namespace CSharpLab.Chapter1
     {
         public static void RunMain()
         {
-            Listing_1_74.RunMain();
+            //Listing_1_75.RunMain();
+            //Console.ReadKey();
+
+            Listing_1_76.RunMain();
             Console.ReadKey();
 
-            
+
         }
     }
 }
