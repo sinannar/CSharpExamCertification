@@ -46,10 +46,8 @@ namespace CSharpLab.Chapter1
             //Listing_1_86.RunMain();
             //Console.ReadKey();
 
-            Listing_1_87.RunMain();
-            Console.ReadKey();
-
-
+            //Listing_1_87.RunMain();
+            //Console.ReadKey();
         }
     }
 }
