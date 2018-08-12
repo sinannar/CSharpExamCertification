@@ -20,7 +20,7 @@ namespace CSharpLab.Chapter1.Objective4
         public delegate int CalculateStatic(int x, int y);  // not need to use 'static' keyword to let delegate point to static function
 
         public static int Add(int x, int y) { return x + y; }
-        public static int Multiply(int x, int y) { return x + y; }
+        public static int Multiply(int x, int y) { return x * y; }
 
         public static void UseDelegate()
         {
@@ -37,7 +37,7 @@ namespace CSharpLab.Chapter1.Objective4
         public delegate int Calculate(int x, int y);
 
         public int Add(int x, int y) { return x + y; }
-        public int Multiply(int x, int y) { return x + y; }
+        public int Multiply(int x, int y) { return x * y; }
 
         public void UseDelegate()
         {
