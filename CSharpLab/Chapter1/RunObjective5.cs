@@ -24,10 +24,23 @@ namespace CSharpLab.Chapter1
             //Listing_1_92.RunMain();
             //Console.ReadKey();
 
-            Listing_1_93.RunMain();
-            Console.ReadKey();
+            //Listing_1_93.RunMain();
+            //Console.ReadKey();
 
+            //Listing_1_94.RunMain();
+            //Console.ReadKey();
 
+            //Listing_1_95.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_96.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_97.RunMain();
+            //Console.ReadKey();
+
+            //Listing_1_98.RunMain();
+            //Console.ReadKey();
         }
     }
 }
