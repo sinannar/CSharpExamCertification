@@ -1,7 +1,4 @@
-﻿using CSharpLab.Chapter1;
-using CSharpLab.Chapter1.Objective1;
-using CSharpLab.Chapter1.Objective2;
-using CSharpLab.Chapter1.Objective3;
+﻿
 using System;
 using System.Threading.Tasks;
 
@@ -11,11 +8,14 @@ namespace CSharpLab
     {
         public static void Main(string[] args)
         {
-            RunObjective1.RunMain();
-            RunObjective2.RunMain();
-            RunObjective3.RunMain();
-            RunObjective4.RunMain();
-            RunObjective5.RunMain();
+            CSharpLab.Chapter1.RunObjective1.RunMain();
+            CSharpLab.Chapter1.RunObjective2.RunMain();
+            CSharpLab.Chapter1.RunObjective3.RunMain();
+            CSharpLab.Chapter1.RunObjective4.RunMain();
+            CSharpLab.Chapter1.RunObjective5.RunMain();
+
+            CSharpLab.Chapter2.RunObjective1.RunMain();
+
         }
     }
 }
