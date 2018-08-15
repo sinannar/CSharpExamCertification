@@ -8,13 +8,13 @@ namespace CSharpLab
     {
         public static void Main(string[] args)
         {
-            CSharpLab.Chapter1.RunObjective1.RunMain();
-            CSharpLab.Chapter1.RunObjective2.RunMain();
-            CSharpLab.Chapter1.RunObjective3.RunMain();
-            CSharpLab.Chapter1.RunObjective4.RunMain();
-            CSharpLab.Chapter1.RunObjective5.RunMain();
+            Chapter1.RunObjective1.RunMain();
+            Chapter1.RunObjective2.RunMain();
+            Chapter1.RunObjective3.RunMain();
+            Chapter1.RunObjective4.RunMain();
+            Chapter1.RunObjective5.RunMain();
 
-            CSharpLab.Chapter2.RunObjective1.RunMain();
+            Chapter2.RunObjective1.RunMain();
 
         }
     }
