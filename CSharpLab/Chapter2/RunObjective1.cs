@@ -9,8 +9,26 @@ namespace CSharpLab.Chapter2
     {
         public static void RunMain()
         {
-            Listing_2_01.RunMain();
+            //Listing_2_01.RunMain();
+            //Console.ReadKey();
+
+            //Listing_2_02.RunMain();
+            //Console.ReadKey();
+
+            //Listing_2_03.RunMain();
+            //Console.ReadKey();
+
+            //Listing_2_04.RunMain();
+            //Console.ReadKey();
+
+            Listing_2_05.RunMain();
             Console.ReadKey();
+
+            Listing_2_06.RunMain();
+            Console.ReadKey();
+
+
+
         }
     }
 }
