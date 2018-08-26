@@ -8,6 +8,5 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Chapter2\Objective7\" />
-    <Folder Include="Chapter2\Objective6\" />
   </ItemGroup>
 </Project>
