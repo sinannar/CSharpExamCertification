@@ -1,0 +1,7 @@
+C:\Users\sinan\source\repos\CSharpExamCertification\FullDotnetExamples\bin\Debug\FullDotnetExamples.exe.config
+C:\Users\sinan\source\repos\CSharpExamCertification\FullDotnetExamples\bin\Debug\FullDotnetExamples.exe
+C:\Users\sinan\source\repos\CSharpExamCertification\FullDotnetExamples\bin\Debug\FullDotnetExamples.pdb
+C:\Users\sinan\source\repos\CSharpExamCertification\FullDotnetExamples\obj\Debug\FullDotnetExamples.csprojAssemblyReference.cache
+C:\Users\sinan\source\repos\CSharpExamCertification\FullDotnetExamples\obj\Debug\FullDotnetExamples.csproj.CoreCompileInputs.cache
+C:\Users\sinan\source\repos\CSharpExamCertification\FullDotnetExamples\obj\Debug\FullDotnetExamples.exe
+C:\Users\sinan\source\repos\CSharpExamCertification\FullDotnetExamples\obj\Debug\FullDotnetExamples.pdb

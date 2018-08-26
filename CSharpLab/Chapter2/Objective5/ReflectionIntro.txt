@@ -1,0 +1,17 @@
+﻿When reading attributes, you’ve already looked at some of the functionality that reflection offers. 
+Reflection enables an application to collect information about itself and act on this information.
+Reflection is slower than normally executing static code. 
+It can, however, give you a flexibility that static code can’t provide. 
+
+The most basic example of reflection is getting the current type of an object you have: 
+int i = 42;
+System.Type type = i.GetType();
+This returns System.Int32 as the type of int. 
+System.Type is a class in the .NET Framework that you can use to get all kinds of metadata about any given type.
+
+When would you use reflection? 
+Assume that you want to create a plug-in system, 
+and you have a directory in your system that contains all plug-ins. 
+If a new assembly is dropped in this location, 
+you inspect the assembly for the plug-ins it contains and then add them to your application.
+

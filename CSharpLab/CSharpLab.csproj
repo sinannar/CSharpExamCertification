@@ -9,6 +9,5 @@
   <ItemGroup>
     <Folder Include="Chapter2\Objective7\" />
     <Folder Include="Chapter2\Objective6\" />
-    <Folder Include="Chapter2\Objective5\" />
   </ItemGroup>
 </Project>
