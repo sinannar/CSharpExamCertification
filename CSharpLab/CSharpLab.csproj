@@ -6,7 +6,4 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <LangVersion>7.3</LangVersion>
   </PropertyGroup>
-  <ItemGroup>
-    <Folder Include="Chapter2\Objective7\" />
-  </ItemGroup>
 </Project>
