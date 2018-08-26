@@ -1,0 +1,15 @@
+﻿Members of	Default member accessibility	Allowed declared accessibility of the member
+
+enum		public							None
+
+class		private							public
+											protected
+											internal
+											private
+											protected internal
+
+interface	public							None
+
+struct		private							public
+											internal
+											private

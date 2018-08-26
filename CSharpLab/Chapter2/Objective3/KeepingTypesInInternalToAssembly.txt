@@ -1,0 +1,7 @@
+﻿Code in C# is contained in assemblies. 
+Inside Visual Studio, you can think of an assembly as a project. 
+This is where another access modifier can be used: internal. 
+Internal restricts access to a type or a type member to the same assembly. 
+It is more restrictive than public, but less than private. 
+Internal is useful when you have a type, such as a helper class or an implementation
+detail, that shouldn't be accessible outside of the assembly you’re building

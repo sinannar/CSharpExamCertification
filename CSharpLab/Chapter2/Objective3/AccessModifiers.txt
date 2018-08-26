@@ -1,0 +1,6 @@
+﻿Access modifier		Description
+public				None; restricted access
+internal			Limited to the current assembly
+protected			Limited to the containing class and derived classes
+protected internal	Limited to the current assembly or derived types
+private				Limited to the containing type
