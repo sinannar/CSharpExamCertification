@@ -21,12 +21,29 @@ namespace CSharpLab.Chapter2
             //Listing_2_04.RunMain();
             //Console.ReadKey();
 
-            Listing_2_05.RunMain();
-            Console.ReadKey();
+            //Listing_2_05.RunMain();
+            //Console.ReadKey();
 
-            Listing_2_06.RunMain();
-            Console.ReadKey();
+            //Listing_2_06.RunMain();
+            //Console.ReadKey();
 
+            //Listing_2_09.RunMain();
+            //Console.ReadKey();
+
+            //Listing_2_10.RunMain();
+            //Console.ReadKey();
+
+            //Listing_2_15.RunMain();
+            //Console.ReadKey();
+
+            //Listing_2_16.RunMain();
+            //Console.ReadKey();
+
+            //Listing_2_17.RunMain();
+            //Console.ReadKey();
+
+            Listing_2_18.RunMain();
+            Console.ReadKey();
 
 
         }

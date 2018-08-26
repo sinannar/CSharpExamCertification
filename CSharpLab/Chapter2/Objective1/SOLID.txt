@@ -1,0 +1,28 @@
+﻿SOLID design principles
+
+S - Single Responsibility Principle
+A class should have only one responsibility. 
+For example, a class should't be both responsible for saving itself to database 
+and for displaying to user
+
+O - Open Closed Principle
+An object should be open for extension but closed for modification
+For example, by using a common interface, new objects can inregrate with existing code without
+modifying the existing code
+
+L - Liskov Substitution Principle
+A base type should be replaceable  with subtypes in each and every situation.
+For example a Duck that can swim and 
+inherited ElectrickDuck that can swim only if the batteries are full.
+Suddenly, code needs to check whether the Duck is an electricDuck to replace empty batteries
+
+I - Interface Segregation principle
+Use client-spesific interfaces instead of one generale interface.
+A user of an interface should not have to implement all kinds of methods that he does not use
+
+D- Dependency Inversion Principle
+Depend upon abstractions, not concretions. For example,
+When you use SomeServiceType inside your class,
+you should not depend on the actual implemenation of SomeServiceType.
+Instead, you should depend on an interface or abstract class.
+This way you are less coupled to the actual implementaion
