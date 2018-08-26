@@ -1,0 +1,10 @@
+﻿Notice the yield return in the GetEnumerator function. 
+Yield is a special keyword that can be used only in the context of iterators. 
+It instructs the compiler to convert this regular code to a state machine. 
+The generated code keeps track of where 
+you are in the collection and it implements methods such as MoveNext and Current.
+
+Because creating iterators is so easy now, 
+it has suddenly become a feature that you can use in your own code quite easily. 
+Whenever you do a lot of manual loops through the same data structure, 
+think about the iterator pattern and how it can help you create way nicer code.

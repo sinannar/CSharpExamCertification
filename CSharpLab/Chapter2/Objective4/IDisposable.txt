@@ -1,0 +1,15 @@
+﻿Another useful interface in the .NET Framework is IDisposable. 
+This interface is used to facilitate working with external, unmanaged resources. 
+As Objective 2.6 discusses, C# is a managed language that uses a garbage collector to clean up memory. 
+However, you will still access external, 
+unmanaged resources like database connections or file handles. 
+This is where IDisposable comes into play.
+
+The only method the IDisposable interface has is Dispose(). 
+This method is used to free any unmanaged resources. 
+
+
+public interface IDisposable
+{
+	void Dispose();
+}

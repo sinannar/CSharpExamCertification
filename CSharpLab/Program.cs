@@ -17,6 +17,10 @@ namespace CSharpLab
             Chapter2.RunObjective1.RunMain();
             Chapter2.RunObjective2.RunMain();
             Chapter2.RunObjective3.RunMain();
+            Chapter2.RunObjective4.RunMain();
+            Chapter2.RunObjective5.RunMain();
+            Chapter2.RunObjective6.RunMain();
+            Chapter2.RunObjective7.RunMain();
 
         }
     }

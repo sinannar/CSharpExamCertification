@@ -1,0 +1,7 @@
+﻿Inheritance is a powerful technique, but it should be used with caution. 
+As already mentioned, inheritance should be used only 
+when you are dealing with a “is-a-kind-of” relationship.
+The Liskov substitution principle states that 
+a subclass should be usable in each place you can use one of the base classes. 
+They shouldn’t suddenly change behavior that users would
+depend on. 

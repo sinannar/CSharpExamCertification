@@ -1,0 +1,10 @@
+﻿Before .NET existed, 
+the first generation of the Windows API was based on a library of functions contained in a dynamic-link library (DLL). 
+Later generations collected these functions into a Component Object Model (COM) interface. 
+The .NET Framework provides classes that wrap much of these APIs in a managed version 
+ so that in normal life you almost never touch any COM components directly.
+
+Normally, you just add a reference to a COM object
+ and the compiler generates the necessary wrapper classes called COM Interop classes. 
+If this fails for some reason, 
+you have to create the wrapper class; this is where the IUnknown interface is used. 
