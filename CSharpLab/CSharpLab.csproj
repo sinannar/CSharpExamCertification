@@ -15,9 +15,6 @@
     <EmbeddedResource Include="Chapter3\Objective1\Person.xsd" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Chapter3\Objective5\" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="System.Data.Entity.Repository" Version="2.0.0.1" />
     <PackageReference Include="Vse.Web.Serialization.ControlledSerializationJsonConverter" Version="1.0.4" />
