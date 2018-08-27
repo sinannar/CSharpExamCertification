@@ -16,8 +16,12 @@ namespace FullDotnetExamples
             //Chptr3_Obj2_Listing_18.RunMain();
             //Console.ReadKey();
 
-            Chptr3_Obj2_Listing_19.RunMain();
-            Console.ReadKey();
+            //Chptr3_Obj2_Listing_19.RunMain();
+            //Console.ReadKey();
+
+            //THIS IS NOT WORKING
+            //Chptr3_Obj2_Listing_24.RunMain();
+            //Console.ReadKey();
         }
     }
 }

@@ -10,6 +10,7 @@ using System.Xml;
 using System.Xml.Schema;
 using System.Security.Cryptography;
 using System.IO;
+using System.Linq;
 
 //Chptr3_Obj2_Listing_19
 namespace CSharpLab.Chapter3.Objective2
@@ -23,8 +24,22 @@ namespace CSharpLab.Chapter3.Objective2
 
             string data = "A paragraph of text";
             byte[] hashA = sha256.ComputeHash(byteConverter.GetBytes(data));
+            Console.WriteLine("hashA: {0}", hashA.ToSentence());
 
-            Console.WriteLine(hashA.ToSentence());
+            data = "A paragraph of changed text";
+            byte[] hashB = sha256.ComputeHash(byteConverter.GetBytes(data));
+            Console.WriteLine("hashB: {0}", hashB.ToSentence());
+
+            data = "A paragraph of text";
+            byte[] hashC = sha256.ComputeHash(byteConverter.GetBytes(data));
+            Console.WriteLine("hashC: {0}", hashC.ToSentence());
+            Console.WriteLine();
+            Console.WriteLine("hashA.SequenceEqual(hashB): {0}", hashA.SequenceEqual(hashB));
+            Console.WriteLine("hashA.SequenceEqual(hashC): {0}", hashA.SequenceEqual(hashC));
+
+
+            Console.WriteLine("Press a key to exit");
+            Console.ReadKey();
         }        
     }    
 }

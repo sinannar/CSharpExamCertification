@@ -19,8 +19,12 @@ namespace CSharpLab.Chapter3
             //Listing_3_20.RunMain();
             //Console.ReadKey();
 
-            Listing_3_23.RunMain();
-            Console.ReadKey();
+            //Listing_3_23.RunMain();
+            //Console.ReadKey();
+
+            //NOT WORKING
+            //Listing_3_24.RunMain();
+            //Console.ReadKey();
 
         }
     }
