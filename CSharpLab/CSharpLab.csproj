@@ -18,7 +18,6 @@
     <Folder Include="Chapter3\Objective3\" />
     <Folder Include="Chapter3\Objective4\" />
     <Folder Include="Chapter3\Objective5\" />
-    <Folder Include="Chapter3\Objective2\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />

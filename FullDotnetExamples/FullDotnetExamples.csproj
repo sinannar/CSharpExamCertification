@@ -45,6 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chptr3-Obj2-Listing-19.cs" />
+    <Compile Include="Chptr3-Obj2-Listing-18.cs" />
     <Compile Include="Chptr2-Obj5-Listing-74.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -12,3 +12,6 @@ D:\source\CSharpExamCertification\FullDotnetExamples\obj\Debug\FullDotnetExample
 D:\source\CSharpExamCertification\FullDotnetExamples\obj\Debug\FullDotnetExamples.csproj.CoreCompileInputs.cache
 D:\source\CSharpExamCertification\FullDotnetExamples\obj\Debug\FullDotnetExamples.exe
 D:\source\CSharpExamCertification\FullDotnetExamples\obj\Debug\FullDotnetExamples.pdb
+D:\source\CSharpExamCertification\FullDotnetExamples\bin\Debug\Newtonsoft.Json.dll
+D:\source\CSharpExamCertification\FullDotnetExamples\bin\Debug\Newtonsoft.Json.xml
+D:\source\CSharpExamCertification\FullDotnetExamples\obj\Debug\FullDotnetExamples.csproj.CopyComplete
