@@ -1,0 +1,2 @@
+﻿Chapter 3 obj 3 is about Assemblies and managing them.
+Need to read and create a summary about it.

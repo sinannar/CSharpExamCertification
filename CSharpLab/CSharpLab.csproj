@@ -15,8 +15,6 @@
     <EmbeddedResource Include="Chapter3\Objective1\Person.xsd" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Chapter3\Objective3\" />
-    <Folder Include="Chapter3\Objective4\" />
     <Folder Include="Chapter3\Objective5\" />
   </ItemGroup>
   <ItemGroup>
