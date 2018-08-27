@@ -2,3 +2,7 @@
 /.vs/*
 /CSharpLab/bin/*
 /CSharpLab/obj/*
+
+FullDotnetExamples/obj/Debug/FullDotnetExamples\.csproj\.CoreCompileInputs\.cache
+
+FullDotnetExamples/obj/Debug/FullDotnetExamples\.csprojAssemblyReference\.cache
