@@ -5,3 +5,10 @@ C:\Users\sinan\source\repos\CSharpExamCertification\FullDotnetExamples\obj\Debug
 C:\Users\sinan\source\repos\CSharpExamCertification\FullDotnetExamples\obj\Debug\FullDotnetExamples.csproj.CoreCompileInputs.cache
 C:\Users\sinan\source\repos\CSharpExamCertification\FullDotnetExamples\obj\Debug\FullDotnetExamples.exe
 C:\Users\sinan\source\repos\CSharpExamCertification\FullDotnetExamples\obj\Debug\FullDotnetExamples.pdb
+D:\source\CSharpExamCertification\FullDotnetExamples\bin\Debug\FullDotnetExamples.exe.config
+D:\source\CSharpExamCertification\FullDotnetExamples\bin\Debug\FullDotnetExamples.exe
+D:\source\CSharpExamCertification\FullDotnetExamples\bin\Debug\FullDotnetExamples.pdb
+D:\source\CSharpExamCertification\FullDotnetExamples\obj\Debug\FullDotnetExamples.csprojAssemblyReference.cache
+D:\source\CSharpExamCertification\FullDotnetExamples\obj\Debug\FullDotnetExamples.csproj.CoreCompileInputs.cache
+D:\source\CSharpExamCertification\FullDotnetExamples\obj\Debug\FullDotnetExamples.exe
+D:\source\CSharpExamCertification\FullDotnetExamples\obj\Debug\FullDotnetExamples.pdb
