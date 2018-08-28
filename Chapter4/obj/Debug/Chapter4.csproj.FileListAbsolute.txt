@@ -1,7 +1,0 @@
-D:\source\CSharpExamCertification\Chapter4\bin\Debug\Chapter4.exe.config
-D:\source\CSharpExamCertification\Chapter4\bin\Debug\Chapter4.exe
-D:\source\CSharpExamCertification\Chapter4\bin\Debug\Chapter4.pdb
-D:\source\CSharpExamCertification\Chapter4\obj\Debug\Chapter4.csprojAssemblyReference.cache
-D:\source\CSharpExamCertification\Chapter4\obj\Debug\Chapter4.csproj.CoreCompileInputs.cache
-D:\source\CSharpExamCertification\Chapter4\obj\Debug\Chapter4.exe
-D:\source\CSharpExamCertification\Chapter4\obj\Debug\Chapter4.pdb
