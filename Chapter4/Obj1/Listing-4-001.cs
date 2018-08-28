@@ -11,7 +11,7 @@ namespace Chapter4.Obj1
     {
         public static void RunMain()
         {
-            DriveInfo[] drivesInfo = DriveInfo.GetDrives(); 
+            DriveInfo[] drivesInfo = DriveInfo.GetDrives();
             foreach (var driveInfo in drivesInfo)
             {
                 Console.WriteLine("Drive {0}", driveInfo.Name);
