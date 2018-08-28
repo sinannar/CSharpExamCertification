@@ -42,7 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Obj1\Listing-4-13.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Obj1\Listing-4-026.cs" />
+    <Compile Include="Obj1\Listing-4-025.cs" />
+    <Compile Include="Obj1\Listing-4-024.cs" />
+    <Compile Include="Obj1\Listing-4-023.cs" />
+    <Compile Include="Obj1\Listing-4-022.cs" />
+    <Compile Include="Obj1\Listing-4-021.cs" />
+    <Compile Include="Obj1\Listing-4-020.cs" />
+    <Compile Include="Obj1\Listing-4-019.cs" />
+    <Compile Include="Obj1\Listing-4-018.cs" />
+    <Compile Include="Obj1\Listing-4-017.cs" />
+    <Compile Include="Obj1\Listing-4-016.cs" />
+    <Compile Include="Obj1\Listing-4-015.cs" />
+    <Compile Include="Obj1\Listing-4-014.cs" />
+    <Compile Include="Obj1\Listing-4-013.cs" />
     <Compile Include="Obj1\Listing-4-012.cs" />
     <Compile Include="Obj1\Listing-4-011.cs" />
     <Compile Include="Obj1\Listing-4-010.cs" />
