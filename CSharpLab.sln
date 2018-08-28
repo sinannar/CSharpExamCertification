@@ -7,10 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpLab", "CSharpLab\CSha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullDotnetExamples", "FullDotnetExamples\FullDotnetExamples.csproj", "{E90928FD-23BF-4578-9691-528BF330FE0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter4", "Chapter4\Chapter4.csproj", "{2A0EFE4D-ACB5-47F8-A6EB-FF7C8C254A42}"
+EndProject
 Global
-	GlobalSection(Performance) = preSolution
-		HasPerformanceSessions = true
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -24,11 +23,18 @@ Global
 		{E90928FD-23BF-4578-9691-528BF330FE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E90928FD-23BF-4578-9691-528BF330FE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E90928FD-23BF-4578-9691-528BF330FE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A0EFE4D-ACB5-47F8-A6EB-FF7C8C254A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0EFE4D-ACB5-47F8-A6EB-FF7C8C254A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0EFE4D-ACB5-47F8-A6EB-FF7C8C254A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0EFE4D-ACB5-47F8-A6EB-FF7C8C254A42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A475637E-8858-41B0-81DB-A811CD2C5DA0}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
 	EndGlobalSection
 EndGlobal
