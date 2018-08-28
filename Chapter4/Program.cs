@@ -11,6 +11,8 @@ namespace Chapter4
         static void Main(string[] args)
         {
             Objective1.RunMain();
+            Objective2.RunMain();
+            Objective3.RunMain();
 
         }
     }

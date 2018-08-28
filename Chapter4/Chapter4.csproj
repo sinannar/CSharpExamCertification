@@ -32,8 +32,40 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.4.5.0\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Entity.Repository, Version=2.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.Entity.Repository.2.0.0.1\lib\net45\System.Data.Entity.Repository.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security.AccessControl, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.4.5.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Permissions.4.5.0\lib\net461\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.4.5.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Primitives, Version=4.5.0.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Primitives.4.5.3\lib\net461\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -69,15 +101,41 @@
     <Compile Include="Obj1\Listing-4-003.cs" />
     <Compile Include="Obj1\Listing-4-002.cs" />
     <Compile Include="Obj1\Listing-4-001.cs" />
+    <Content Include="Obj2\Listing-4-031.sql" />
+    <None Include="Obj2\Listing-4-047.json">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Obj2\Listing-4-042.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Obj2\Listing-4-041.md" />
+    <None Include="Obj2\Listing-4-040.md" />
+    <Compile Include="Obj2\Listing-4-046.cs" />
+    <Compile Include="Obj2\Listing-4-045.cs" />
+    <Compile Include="Obj2\Listing-4-044.cs" />
+    <Compile Include="Obj2\Listing-4-043.cs" />
+    <Compile Include="Obj2\Listing-4-039.cs" />
+    <Compile Include="Obj2\Listing-4-038.cs" />
+    <Compile Include="Obj2\Listing-4-037.cs" />
+    <Compile Include="Obj2\Listing-4-036.cs" />
+    <Compile Include="Obj2\Listing-4-035.cs" />
+    <Compile Include="Obj2\Listing-4-034.cs" />
+    <Compile Include="Obj2\Listing-4-033.cs" />
+    <Compile Include="Obj2\Listing-4-032.cs" />
+    <Compile Include="Obj2\Listing-4-030.cs" />
+    <Compile Include="Obj2\Listing-4-029.cs" />
+    <Compile Include="Obj2\Listing-4-028.cs" />
+    <Compile Include="Obj2\Listing-4-027.cs" />
+    <Compile Include="Objective2.cs" />
     <Compile Include="Objective1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Obj2\" />
     <Folder Include="Obj3\" />
     <Folder Include="Obj4\" />
     <Folder Include="Obj5\" />
