@@ -158,6 +158,17 @@
     <Compile Include="Obj4\Listing-4-072.cs" />
     <Compile Include="Obj4\Listing-4-071.cs" />
     <Compile Include="Obj4\Listing-4-070.cs" />
+    <Compile Include="Obj5\Listing-4-091.cs" />
+    <Compile Include="Obj5\Listing-4-090.cs" />
+    <Compile Include="Obj5\Listing-4-089.cs" />
+    <Compile Include="Obj5\Listing-4-088.cs" />
+    <Compile Include="Obj5\Listing-4-087.cs" />
+    <Compile Include="Obj5\Listing-4-086.cs" />
+    <Compile Include="Obj5\Listing-4-085.cs" />
+    <Compile Include="Obj5\Listing-4-084.cs" />
+    <Compile Include="Obj5\Listing-4-083.cs" />
+    <Compile Include="Obj5\Listing-4-082.cs" />
+    <Compile Include="Obj5\Listing-4-081.cs" />
     <Compile Include="Obj5\Listing-4-080.cs" />
     <Compile Include="Objective2.cs" />
     <Compile Include="Objective1.cs" />
