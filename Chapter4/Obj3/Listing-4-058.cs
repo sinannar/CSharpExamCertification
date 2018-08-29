@@ -19,19 +19,19 @@ using System.Xml.XPath;
 
 namespace Chapter4.Obj3
 {
-    public static class Listing_4_048
+    public static class Listing_4_058
     {
         public static void RunMain()
         {
-            var p = new Person();
-            p.FirstName = "John";
-            p.LastName = "Doe";
-        }
+            int[] data1 = { 1, 2, 5 };
+            int[] data2 = { 2, 4, 6 };
 
-        public class Person
-        {
-            public string FirstName { get; set; }
-            public string LastName { get; set; }
+            var result = from d1 in data1
+                         from d2 in data2
+                         select d1 * d2;
+
+            Console.WriteLine(string.Join(", ", result));
+
         }
     }
 }

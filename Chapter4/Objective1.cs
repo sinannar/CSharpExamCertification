@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Chapter4
 {
-    public class Objective1
+    public static class Objective1
     {
         public static void RunMain()
         {

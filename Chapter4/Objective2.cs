@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Chapter4
 {
-    public class Objective2
+    public static class Objective2
     {
         public static void RunMain()
         {
@@ -36,8 +36,8 @@ namespace Chapter4
             //Listing_4_045.RunMain();
             //Console.ReadKey();
 
-            Listing_4_046.RunMain();
-            Console.ReadKey();
+            //Listing_4_046.RunMain();
+            //Console.ReadKey();
 
 
         }

@@ -19,13 +19,23 @@ using System.Xml.XPath;
 
 namespace Chapter4.Obj3
 {
-    public static class Listing_4_048
+    public static class Listing_4_050
     {
         public static void RunMain()
         {
-            var p = new Person();
-            p.FirstName = "John";
-            p.LastName = "Doe";
+            var people = new List<Person>
+            {
+                new Person
+                {
+                    FirstName = "John",
+                    LastName = "Doe"
+                },
+                new Person
+                {
+                    FirstName = "Jane",
+                    LastName = "Doe"
+                },
+            };
         }
 
         public class Person

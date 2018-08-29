@@ -19,19 +19,16 @@ using System.Xml.XPath;
 
 namespace Chapter4.Obj3
 {
-    public static class Listing_4_048
+    public static class Listing_4_053
     {
         public static void RunMain()
         {
-            var p = new Person();
-            p.FirstName = "John";
-            p.LastName = "Doe";
-        }
-
-        public class Person
-        {
-            public string FirstName { get; set; }
-            public string LastName { get; set; }
+            var person = new
+            {
+                FirstName = "John",
+                LastName = "Doe"
+            };
+            Console.WriteLine(person.GetType().Name);
         }
     }
 }

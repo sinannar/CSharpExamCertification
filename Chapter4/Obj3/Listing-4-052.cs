@@ -19,19 +19,19 @@ using System.Xml.XPath;
 
 namespace Chapter4.Obj3
 {
-    public static class Listing_4_048
+    public static class Listing_4_052
     {
         public static void RunMain()
-        {
-            var p = new Person();
-            p.FirstName = "John";
-            p.LastName = "Doe";
-        }
+        {            
+            Console.WriteLine(31.Multiply(2));
+        }       
+    }
 
-        public class Person
+    public static class IntExtensions
+    {
+        public static int Multiply(this int x, int y)
         {
-            public string FirstName { get; set; }
-            public string LastName { get; set; }
+            return x * y;
         }
     }
 }

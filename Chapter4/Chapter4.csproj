@@ -126,8 +126,31 @@
     <Compile Include="Obj2\Listing-4-029.cs" />
     <Compile Include="Obj2\Listing-4-028.cs" />
     <Compile Include="Obj2\Listing-4-027.cs" />
+    <Content Include="Obj3\Listing-4-064.xml" />
+    <Compile Include="Obj3\Listing-4-069.cs" />
+    <Compile Include="Obj3\Listing-4-068.cs" />
+    <Compile Include="Obj3\Listing-4-067.cs" />
+    <Compile Include="Obj3\Listing-4-066.cs" />
+    <Compile Include="Obj3\Listing-4-065.cs" />
+    <Compile Include="Obj3\Listing-4-063.cs" />
+    <Compile Include="Obj3\Listing-4-062.cs" />
+    <Compile Include="Obj3\Listing-4-061.cs" />
+    <Compile Include="Obj3\Listing-4-060.cs" />
+    <Compile Include="Obj3\Listing-4-059.cs" />
+    <Compile Include="Obj3\Listing-4-058.cs" />
+    <Compile Include="Obj3\Listing-4-057.cs" />
+    <Compile Include="Obj3\Listing-4-056.cs" />
+    <Compile Include="Obj3\Listing-4-055.cs" />
+    <Compile Include="Obj3\Listing-4-054.cs" />
+    <Compile Include="Obj3\Listing-4-053.cs" />
+    <Compile Include="Obj3\Listing-4-052.cs" />
+    <Compile Include="Obj3\Listing-4-051.cs" />
+    <Compile Include="Obj3\Listing-4-050.cs" />
+    <Compile Include="Obj3\Listing-4-049.cs" />
+    <Compile Include="Obj3\Listing-4-048.cs" />
     <Compile Include="Objective2.cs" />
     <Compile Include="Objective1.cs" />
+    <Compile Include="Objective3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -136,7 +159,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Obj3\" />
     <Folder Include="Obj4\" />
     <Folder Include="Obj5\" />
   </ItemGroup>
