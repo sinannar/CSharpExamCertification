@@ -13,6 +13,7 @@ namespace Chapter4
             Objective1.RunMain();
             Objective2.RunMain();
             Objective3.RunMain();
+            Objective4.RunMain();
 
         }
     }

@@ -148,8 +148,19 @@
     <Compile Include="Obj3\Listing-4-050.cs" />
     <Compile Include="Obj3\Listing-4-049.cs" />
     <Compile Include="Obj3\Listing-4-048.cs" />
+    <Compile Include="Obj4\Listing-4-079.cs" />
+    <Compile Include="Obj4\Listing-4-078.cs" />
+    <Compile Include="Obj4\Listing-4-077.cs" />
+    <Compile Include="Obj4\Listing-4-076.cs" />
+    <Compile Include="Obj4\Listing-4-075.cs" />
+    <Compile Include="Obj4\Listing-4-074.cs" />
+    <Compile Include="Obj4\Listing-4-073.cs" />
+    <Compile Include="Obj4\Listing-4-072.cs" />
+    <Compile Include="Obj4\Listing-4-071.cs" />
+    <Compile Include="Obj4\Listing-4-070.cs" />
     <Compile Include="Objective2.cs" />
     <Compile Include="Objective1.cs" />
+    <Compile Include="Objective4.cs" />
     <Compile Include="Objective3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -159,7 +170,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Obj4\" />
     <Folder Include="Obj5\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
